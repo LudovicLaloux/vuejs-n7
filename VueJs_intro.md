@@ -33,7 +33,7 @@ _Projet intial :_ prendre le meilleur de Angular dans un framework plus léger
 - **février 2022 :** VueJs 3 
 
 **Doc officielle :**  
- Vue 2 has now entered maintenance mode: it will no longer ship new features, but will continue to receive critical bug fixes and security updates for 18 months starting from the 2.7 release date. This means Vue 2 will reach End of Life by the end of 2023.
+ Vue 2 has now entered maintenance mode: it will no longer ship new features, but will continue to receive critical bug fixes and security updates for 18 months starting from the 2.7 release date. This means **Vue 2 will reach End of Life by the end of 2023**.
 
 --- 
 
