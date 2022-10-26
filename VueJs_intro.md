@@ -3,6 +3,7 @@ marp: true
 theme: default
 paginate: true
 ---
+<!-- slide 1 -->
 ![bg left:40% 80%](./img/vue_logo.svg)
 # Introduction à VueJs 
 __Formateur:__ Ludovic Laloux
@@ -10,33 +11,24 @@ __Formateur:__ Ludovic Laloux
 
 
 ---
-
+<!-- slide 2 -->
 # Qui suis-je ?
 
 * **2015 - 2018 :** Chargé de projets au service de formation continue - INP Toulouse 
 * **2018-2019 :** D.U. Full Stack à l'N7
 * **2019**: Stage Développeur Frontend VueJs - Guidap
 * **2020 - 2022 :** Développeur Full Stack JS - June Factory (Scassi) 
+* **2020 - ... :** 
 
 --- 
-
+<!-- slide 3 -->
 # Contexte
 
-Créé et toujours maintenu par **Evan You** (ingénieur Google) depuis 2013
-_Projet intial :_ prendre le meilleur de Angular dans un framework plus léger
-
----
-
-# Versions
-
-- **2016 :** VueJs 2
-- **février 2022 :** VueJs 3 
-
-**Doc officielle :**  
- Vue 2 has now entered maintenance mode: it will no longer ship new features, but will continue to receive critical bug fixes and security updates for 18 months starting from the 2.7 release date. This means **Vue 2 will reach End of Life by the end of 2023**.
+- Créé et toujours maintenu par **Evan You** (ingénieur Google) depuis 2013
+- _Projet intial :_ prendre le meilleur de Angular dans un framework plus léger
 
 --- 
-
+<!-- slide 4 -->
 ### 3 Frameworks majoritaires
 Svelte, Ember...
 ![bg right:60% 50%](./img/react.jpeg)
@@ -44,31 +36,67 @@ Svelte, Ember...
 ![bg 50%](./img/angular.png)
 
 --- 
+<!-- slide 5 -->
+# Evolutions majeures
+
+- **2016 :** VueJs 2
+- **février 2022 :** VueJs 3 
+
+**Doc officielle :**  
+ Vue 2 has now entered maintenance mode: it will no longer ship new features, but will continue to receive critical bug fixes and security updates for 18 months starting from the 2.7 release date. This means **Vue 2 will reach End of Life by the end of 2023**.
+
+---
+<!-- slide 6 -->
 ![bg 90%](./img/vue_ecosystem.jpeg)
 
 ---
-
+<!-- slide 7 -->
+![bg right 90%](./img/vite_diagram.png)
 # Vue CLI (Vue 2) --> Vite (Vue 3)
 
 https://vitejs.dev/
 
-- Abandon de webpack
-- 
+- Abandon du projet Vue CLI car trop dépendant de Webpack
+- Permet de créer un projet et de servir le bundle pour le dev et la prod
 
 ---
-
+<!-- slide 8 -->
 ![bg right:50% 100%](./img/vuedevtools.jpeg)
-# VueDevTools 
+# VueDevTools
+
 https://devtools.vuejs.org/ 
 
 :rotating_light: à installer dans votre navigateur pour ce cours !
 
 ---
-
-# VueJs 3 
+<!-- slide 9 -->
+# Vue router 
 
 - Vue router
 - VueX --> Pinia
 - VuePress --> 
 - Vue CLI --> Vite
 
+---
+<!-- slide 10 -->
+# Pinia (ex VueX)
+
+https://pinia.vuejs.org/
+
+- State management library
+- Permet de stocker et passer la donnée entre les composants 
+
+---
+# Vitepress (Vuepress)
+
+https://vitepress.vuejs.org/
+
+Génération de documentation au format Markdown
+
+---
+# Option API vs Composition API
+
+---
+
+# SFC (Single File Component)
+@vitejs/plugin-vue
