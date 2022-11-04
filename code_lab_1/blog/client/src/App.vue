@@ -4,7 +4,9 @@ import PostCreate from "./components/PostCreate.vue";
 
 <template>
   <div class="App">
-    <PostCreate></PostCreate>
+    <div class="container">
+      <PostCreate></PostCreate>
+    </div>
   </div>
 </template>
 
