@@ -1,6 +1,8 @@
 ## Introduction :
 
 Terminer l'introduction
+ - Développer la partie SFC (screenshots + présentation)
+ - Partie Vue2 / Vue3 (Option API / Composition API)
 
 ## Blog :
 
