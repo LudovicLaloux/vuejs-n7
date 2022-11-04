@@ -1,7 +1,11 @@
-<script setup></script>
+<script setup>
+import PostCreate from "./components/PostCreate.vue";
+</script>
 
 <template>
-  <div>Hello world</div>
+  <div class="App">
+    <PostCreate></PostCreate>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss"></style>
