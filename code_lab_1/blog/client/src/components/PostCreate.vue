@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+const title = ref("");
+</script>
 
 <template>
   <div class="PostCreate">
@@ -7,11 +11,12 @@
       <form>
         <div class="form-group">
           <label>Title</label>
-          <input class="form-control" />
+          <input v-model="title" class="form-control" />
         </div>
         <button class="btn btn-primary">Submit</button>
       </form>
     </div>
+    <p>Title is {{ title }}</p>
   </div>
 </template>
 
