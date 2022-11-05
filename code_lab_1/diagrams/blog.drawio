@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T13:54:59.308Z" agent="5.0 (Windows)" etag="OKGi9HzPpUPXYj0yCESn" version="20.5.1" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2022-11-05T14:05:27.397Z" agent="5.0 (Windows)" etag="qYhouXcMoFQeJu8J27qE" version="20.5.1" type="github" pages="22">
   <diagram id="5tbrid-iLjV5ifibn0Md" name="Page-1">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -694,10 +694,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Go48Q3UV7GwijN-_IGu1-1" value="&lt;h2&gt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Bravo, vous avez un server Express fonctionnel ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="Go48Q3UV7GwijN-_IGu1-1" value="&lt;h2&gt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Bravo, vous avez un server Express fonctionnel ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="160" y="240" width="570" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sliopmDCRPztYUtW_xG9-1" value="&lt;h2 style=&quot;font-size: 20px;&quot;&gt;Passons maintenant au frontend avec VueJs &lt;font style=&quot;font-size: 20px;&quot;&gt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&lt;/font&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="sliopmDCRPztYUtW_xG9-1" value="&lt;h2 style=&quot;font-size: 20px;&quot;&gt;Passons maintenant au frontend avec VueJs &lt;font style=&quot;font-size: 20px;&quot;&gt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&lt;/font&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="160" y="350" width="570" height="80" as="geometry" />
         </mxCell>
       </root>
@@ -1218,6 +1218,20 @@
         </mxCell>
         <mxCell id="LAjIco0Aa4C2z-jnijp0-2" value="âš ï¸ l&#39;event &quot;Submit&quot; de &amp;lt;form&amp;gt; a un comportement natif qu&#39;on souhaite Ã©viter. Il faut pour cela passer l&#39;event en paramÃ¨tre de la fonction et appeler &quot;&lt;i&gt;event.preventDefault()&lt;/i&gt;&quot; au dÃ©but de la fonction" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#b85450;strokeWidth=1;fontSize=13;fillColor=#f8cecc;align=left;" vertex="1" parent="1">
           <mxGeometry x="152.87" y="610" width="550" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bFgpeJwFTy7dZpIRJ-00" name="Page-22">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="neCZ_AXyzzNzwNnHCz47-1" value="&lt;h3&gt;í ½í±í ½í±í ½í± Bravo, vous venez de crÃ©er votre premier formulaire en VueJs í ½í±í ½í±í ½í±&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="neCZ_AXyzzNzwNnHCz47-2" value="&lt;h3&gt;Pour la suite, nous allons rÃ©cupÃ©rer les post crÃ©Ã© sur notre serveur, et les lister dans la page í ½íº€í ½íº€&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="570" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
