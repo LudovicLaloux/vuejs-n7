@@ -1,10 +1,15 @@
 <script setup>
 import { ref } from "vue";
+import axios from "axios";
 
 const title = ref("");
 
-function sendPost() {
-  console.log("titre du post :", title.value);
+async function sendPost(event) {
+  event.preventDefault();
+  const response = await axios.post("http://localhost:4001/posts/", {
+    title: title.value,
+  });
+  console.log("response", response);
 }
 </script>
 
