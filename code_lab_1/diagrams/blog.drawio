@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-06T10:11:01.664Z" agent="5.0 (Windows)" etag="ti8YdTE4QUxnc0-qfETd" version="20.5.2" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2022-11-06T14:09:47.650Z" agent="5.0 (Windows)" etag="z1asEtZtZBURCcRcU03L" version="20.5.2" type="github" pages="26">
   <diagram id="5tbrid-iLjV5ifibn0Md" name="Page-1">
     <mxGraphModel dx="1226" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1271,10 +1271,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9D_rNHUKnivV4g4pb5Mo-1" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="72.12" y="240" width="715.75" height="430" as="geometry" />
+          <mxGeometry x="72.12" y="240" width="715.75" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="iACv2r9-J1RXb4GJQtfC-1" value="&lt;h2&gt;Composant PostList - #2&lt;br&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="249" y="120" width="330" height="60" as="geometry" />
+        <mxCell id="iACv2r9-J1RXb4GJQtfC-1" value="&lt;h2&gt;Composant PostList - #2 Récupérer les posts &lt;br&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="164.5" y="130" width="551" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6JvPl976qsEhliDZw2k_-1" value="Ex #2:&lt;i&gt; &lt;/i&gt;Ajouter une fonction &lt;i&gt;fetchPosts &lt;/i&gt;qui réalise une requête Axios de type GET sur l&#39;URL du serveur pour récupérer les posts (voir page 5 pour l&#39;URL) -&amp;gt; Appeler &lt;i&gt;fetchPosts&lt;/i&gt; dans le hook onMounted et mettre un console log du résultat&lt;i&gt;)&lt;br&gt;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="135" y="420" width="600" height="50" as="geometry" />
@@ -1294,6 +1294,9 @@
         </UserObject>
         <mxCell id="fYAGe5hQP9dDZaQu0UI8-1" value="Ex #1:&amp;nbsp;Ajouter un hook de cycle de vie onMounted dans le script du composant (mettre un console.log(&quot;composant monté&quot;) dans le hook et rafraichir la page pour s&#39;assurer que ça fonctionne)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="129.99" y="260" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zc4fwlDqL8ejuQjS0tHq-1" value="Ex #4: Vérifier la valeur de la variable &lt;i&gt;posts &lt;/i&gt;en l&#39;affichant dans le template avec un &amp;lt;span&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="135" y="650" width="600" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1348,7 +1351,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DAsDVqVn0PB1OD-SE8jY" name="Page-25">
-    <mxGraphModel dx="2053" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1386,23 +1389,6 @@
         </mxCell>
         <mxCell id="lHDn167D4yl0xRZ1WS3f-20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;imageBorder=default;" vertex="1" parent="1">
           <mxGeometry x="579" y="909.5" width="141" height="45" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="Bw0FrZP9TPowioLoUded" name="Page-27">
-    <mxGraphModel dx="1226" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="EP8Sw80f9802dXYogv1--1" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="72.12" y="250" width="715.75" height="380" as="geometry" />
-        </mxCell>
-        <mxCell id="EP8Sw80f9802dXYogv1--2" value="&lt;h2&gt;Composant PostList - #3&lt;br&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="249" y="120" width="330" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EP8Sw80f9802dXYogv1--3" value="Ex #1:&lt;i&gt; &lt;/i&gt;Dans la template, créer une carte boostrap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="130" y="280" width="600" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
