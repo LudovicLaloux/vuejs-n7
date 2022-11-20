@@ -2,7 +2,7 @@
 import { computed, onMounted, reactive } from "vue";
 import axios from "axios";
 import CommentCreate from "./CommentCreate.vue";
-
+import CommentList from "./CommentList.vue";
 const state = reactive({
   posts: {},
 });
@@ -30,6 +30,7 @@ const sortedPosts = computed(() => {
     <div class="card" v-for="post in sortedPosts" :key="post.id">
       <div className="card-body">
         <h3>{{ post.title }}</h3>
+        <CommentList :postId="post.id" />
         <CommentCreate :postId="post.id" />
       </div>
     </div>
