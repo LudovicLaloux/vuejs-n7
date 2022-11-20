@@ -27,14 +27,16 @@ const sortedPosts = computed(() => {
 <template>
   <div class="d-flex flex-row flex-wrap justify-content-between">
     <div class="card" v-for="post in sortedPosts" :key="post.id">
-      <h3>{{ post.title }}</h3>
+      <div className="card-body">
+        <h3>{{ post.title }}</h3>
+      </div>
     </div>
   </div>
 </template>
 
-<style scoped>
+<style>
 .card {
-  width: "30%";
-  margin-bottom: "20px";
+  width: 30%;
+  margin-bottom: 20px;
 }
 </style>
