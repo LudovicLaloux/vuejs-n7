@@ -1,14 +1,13 @@
 <script setup>
 import { ref } from "vue";
-import axios from "axios";
 
 const title = ref("");
 
-async function sendPost(event) {
+const emit = defineEmits(["sendPost"]);
+
+async function submitPost(event) {
   event.preventDefault();
-  await axios.post("http://localhost:4001/posts/", {
-    title: title.value,
-  });
+  emit("sendPost", title.value);
   title.value = "";
 }
 </script>
@@ -16,7 +15,7 @@ async function sendPost(event) {
 <template>
   <div class="PostCreate">
     <div>
-      <form @submit="sendPost">
+      <form @submit="submitPost">
         <div class="form-group">
           <label>Title</label>
           <input v-model="title" class="form-control" />
