@@ -67,7 +67,7 @@ Svelte, Ember...
 
 ![bg right 90%](./img/vite_diagram.png)
 
-# Vue CLI (Vue 2) --> Vite (Vue 3)
+# Vue CLI + Webpack (Vue 2) --> Vite (Vue 3)
 
 https://vitejs.dev/
 
